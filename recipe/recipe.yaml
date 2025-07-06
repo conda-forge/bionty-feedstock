@@ -1,7 +1,7 @@
 context:
   name: bionty
-  version: 1.5.0
-  python_min: 3.10
+  version: "1.6.0"
+  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bionty-${{ version }}.tar.gz
-  sha256: 97408f4757d58690e1c113a16519e3d003c35982f9ef76b524baf4cf9b2220d9
+  sha256: ec0a0cc31e8f5035549feb2e9db53f146969e6aef05b9df3e81efaf785c47680
 
 build:
   number: 0
